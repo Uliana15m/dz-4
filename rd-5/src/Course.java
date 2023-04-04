@@ -1,7 +1,7 @@
-public class dva {
+public class Course {
 
     public int a = 10;
-    public int dva() {
+    public int SimlePrint() {
         System.out.println("---<"+a+">---");
         return a;
     }

@@ -2,12 +2,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        dva vardva = new dva();
+        Course vareable = new Course();
 
-        String povernene = String.valueOf(vardva.dva());
-        System.out.println("***"+povernene+"***");
+        String returnet_value = String.valueOf(vareable.SimlePrint());
+        System.out.println("***"+returnet_value+"***");
     }
 
 
 }
-
